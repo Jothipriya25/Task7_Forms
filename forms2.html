@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>form 2</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(238, 64, 64);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="data:image/jpeg;base64,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" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Travel confirmation Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                    
+                                </td>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                        <input type="text" name="mail" id="mail" placeholder="ex: myname@example.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br>
+                                </td>
+                                <td>
+                                        <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                        <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h4 style="text-align: center;color: black;">Help us make sure we have everything correct by carefully looking over the following information for each traveler.</h4>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Passenger date of birth is correct</b></label><br>
+                                    <input type="checkbox" name="det" value="a" />Name is spelled correctly<br>
+                                    <input type="checkbox" name="det" value="b" />Name on documents are traveler's legal name <br>
+                                    <input type="checkbox" name="det" value="c" />Passenger date of birth is correct <br>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Travel Itinerary Details</b></label><br>
+                                    <input type="checkbox" name="det" value="a" />Flight Dates/Times<br>
+                                    <input type="checkbox" name="det" value="b" />Departure/Arrival Cities <br>
+                                    <input type="checkbox" name="det" value="c" />Hotel Dates <br>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: #000000; font-size: 17px;"><b> any other Comments..</b></label><br>
+                                    <textarea rows = "7" cols="50">type here</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br><br>
+                                        <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: rgb(238, 64, 64); background-color: black; cursor: pointer; opacity:1;">Submit</button>
+                                </td>
+                            </tr>    
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+            <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:yellowgreen;font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://www.corporatevision-news.com/wp-content/uploads/2021/06/Contactless-Payment.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">payment Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                    
+                                </td>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                        <label style="color: black; font-size: 17px;"><b>card number</b></label><br>
+                                        <input type="tel" name="Num" id="Num" placeholder="123-456-789" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                                <td>
+                                        <label style="color: black; font-size: 17px;"><b>card verification number</b></label><br>
+                                        <input type="tel" name="Num" id="Num" placeholder="1234" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Expiration Date</b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <p align="center">
+                                    <i style="color:black;" class="fa-brands fa-cc-visa fa-2x"></i>&nbsp;&nbsp;&nbsp;
+                                    <i style="color:black;" class="fa-brands fa-cc-mastercard fa-2x"></i>&nbsp;&nbsp;&nbsp;
+                                    <i style="color:black" class="fa-brands fa-cc-paypal fa-2x"></i>&nbsp;&nbsp;&nbsp;
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br><br>
+                                        <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">Pay now</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:yellowgreen;font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://i.pinimg.com/originals/1f/7f/dd/1f7fdd78b67bf83cdb0ad02915b8b410.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">patient discharge Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                    
+                                </td>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Admitted Date</b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: #000000; font-size: 17px;"><b> please describe the treatment taken..</b></label><br>
+                                    <textarea rows = "7" cols="50">type here</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                    <label style="color: black; font-size: 17px;"><b>Discharge Date</b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Reason for discharge</b></label><br><br>
+                                    <input type="radio" name="fla" value="a" />patient deceased &nbsp;&nbsp;
+                                    
+                                    <input type="radio" name="fla" value="b" />patient treated<br><br>
+                                    <input type="radio" name="fla" value="c" />patient transferred&nbsp; 
+                                    <input type="radio" name="fla" value="d" />other 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%"> <br>
+                                    <label style="color: black; font-size: 17px;"><b>Discharge physician first Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                    
+                                </td>
+                                <td width="50%"><br>
+                                        <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                        <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(238, 64, 64);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://i.pinimg.com/736x/9e/01/eb/9e01eb5466ed5b90dcea3c2f2f84fe38.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Commercial tax Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Nature of transaction</b></label><br>
+                                    <input type="text" name="text" id="text" required style="width: 400px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>commodity</b></label><br>
+                                    <input type="text" name="text" id="text" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>schedule</b></label><br>
+                                    <input type="text" name="text" id="text" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>purchase value</b></label><br>
+                                    <input type="text" name="text" id="text" placeholder="USD 0.00" required style="width: 400px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>tax paid on purchase</b></label><br>
+                                    <input type="text" name="text" id="text" placeholder="USD 0.00" required style="width: 400px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Total</b></label><br>
+                                    <input type="text" name="text" id="text" placeholder="USD 0.00" required style="width: 400px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                        <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(238, 64, 64);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://thumbs.dreamstime.com/b/banking-business-banner-finance-savings-bank-building-silhouette-city-background-vector-illustration-84498181.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Bank account opening Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>account type</b></label><br>
+                                    <select name="list" id="list" style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <option value="please select">general account</option>
+                                    <option value="lower">priority banking</option>
+                                    <option value="middle">private banking </option>
+                                    <option value="upper">time deposit</option>
+                                    </select>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>salary</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="ex: rs.12000" required style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                        <label style="color: black; font-size: 17px;"><b>Address</b></label><br>
+                                        <input type="text"  placeholder="Address goes here.." required style="width: 650px; height: 60px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(183, 127, 197);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="http://images.assetsdelivery.com/compings_v2/9dreamstudio/9dreamstudio1902/9dreamstudio190202479.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">car insurance Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Where do you park your car?</b></label><br><br>
+                                    <input type="radio" name="fla" value="a" />a private garage&nbsp;&nbsp;
+                                    
+                                    <input type="radio" name="fla" value="b" />the driveway<br><br>
+                                    <input type="radio" name="fla" value="c" />residental street &nbsp;
+                                            
+                                    <input type="radio" name="fla" value="d" />other 
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                    <label style="color: black; font-size: 17px;"><b>Is this vehicle owned, leased or financed?</b></label><br><br>
+                                    <input type="radio" name="fla" value="a" />owned <br>
+                                    <input type="radio" name="fla" value="b" />leased <br>
+                                    <input type="radio" name="fla" value="c" />financed <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(97, 153, 236);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://thumbor.forbes.com/thumbor/fit-in/900x510/https://www.forbes.com/advisor/wp-content/uploads/2021/03/cash-vs-card-Getty.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">debit card application Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>please tick the varient and card you wish to apply</b></label><br><br>
+                                    <input type="checkbox" name="med" value="a" />new<br>
+                                    <input type="checkbox" name="med" value="b" />domestic <br>
+                                    <input type="checkbox" name="med" value="b" />international <br>
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <br><br>
+                                    <input type="checkbox" name="med" value="a" />master card<br>
+                                    <input type="checkbox" name="med" value="b" />visa <br>
+                                    <input type="checkbox" name="med" value="b" />contactless<br>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h4>I have read the terms and conditions and i agree to the same..</h4>
+                                    <br>
+                                    <input type="checkbox" name="terms" value="a" />I agree to the terms of service<br><br>
+                                    <label style="color: black; font-size: 17px;"><b>Signature</b></label><br>
+                                    <input type="text" name="Sign" id="Sign" placeholder="_______________________________________" required style="width: 500px; height: 60px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: yellowgreen; background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(183, 127, 197);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://png.pngtree.com/background/20220725/original/pngtree-businessman-running-on-credit-card-and-dollar-coins-with-wings-flying-picture-image_1760078.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Credit card application Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                        <label style="color: black; font-size: 17px;"><b>Address</b></label><br>
+                                        <input type="text"  placeholder="Address goes here.." required style="width: 650px; height: 60px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                    <label style="color: black; font-size: 17px;"><b>marital status</b></label><br><br>
+                                    <input type="radio" name="fla" value="a" />single<br>
+                                    <input type="radio" name="fla" value="b" />married <br>
+                                    <input type="radio" name="fla" value="c" />divorced <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%"> <br><br>
+                                    <label style="color: black; font-size: 17px;"><b>mother's Name</b></label><br>
+                                    <input type="text" name="mname" id="mname" placeholder=" mother's name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%"> <br><br>
+                                    <label style="color: black; font-size: 17px;"><b>occupation</b></label><br>
+                                    <input type="text" name="job" id="job" placeholder="occupation" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>salary</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="ex: rs.12000" required style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Signature</b></label><br>
+                                    <input type="text" name="Sign" id="Sign" placeholder="_______________________________________" required style="width: 500px; height: 60px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: rgb(183, 127, 197); background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(127, 197, 148);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table background="https://img.freepik.com/premium-vector/money-transfer-global-currency-stock-exchange_115579-1313.jpg" width="100%" align="center" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Direct deposit Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><br>
+                                    <label style="color: black; font-size: 17px;"><b>what would you like to do?</b></label><br><br>
+                                    <input type="radio" name="deposit" value="a" />create new direct deposit account<br>
+                                    <input type="radio" name="deposit" value="b" />change my direct deposit information<br>
+                                    <input type="radio" name="deposit" value="c" />cancel my current direct deposit<br>
+
+                                    <br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b>type of account</b></label><br><br>
+                                    <input type="radio" name="deposit" value="a" />checking
+                                    <input type="radio" name="deposit" value="b" />saving<br>
+
+                                    <br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b>account owner</b></label><br><br>
+                                    <input type="radio" name="deposit" value="a" />self<br>
+                                    <input type="radio" name="deposit" value="b" />joint<br>
+                                    <input type="radio" name="deposit" value="b" />other<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: rgb(127, 197, 148); background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(238, 64, 64);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://media.istockphoto.com/id/1373164182/photo/golden-coins-on-bright-background-online-payment-and-refund.jpg?b=1&s=170667a&w=0&k=20&c=HK49f1zo87-U1VqoczTc6uhTV-qiJU2MtPri5IGQ_Nk=" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Refund claim Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>reason for refund request</b></label><br>
+                                    <select name="list" id="list" style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <option value="flight cancelled">flight cancelled</option>
+                                    <option value="flight delayed">flight delayed</option>
+                                    <option value="death or serious illness">death or serious illness </option>
+                                    <option value="death of immediate family member">death of immediate family member</option>
+                                    </select>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Is this a one way booking?</b></label><br>
+                                    <input type="radio" name="yn" value="yes" />yes
+                                    <input type="radio" name="yn" value="no" />no
+                                    <br><br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b>Is this a return booking?</b></label><br>
+                                    <input type="radio" name="yn" value="yes" />yes
+                                    <input type="radio" name="yn" value="no" />no
+                                    <br><br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b>affected flight number</b></label><br>
+                                    <input type="text" name="Num" id="Num" placeholder="12345" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b> Date of disrupted flight</b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-2002" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td> 
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: rgb(238, 64, 64); background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(127, 197, 148);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table width="100%" align="center" background="https://d26a57ydsghvgx.cloudfront.net/content/service-desk-vs-help-desk.jpg" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: 100% 100%;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">Help desk request Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 640px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>what is the issue?</b></label><br>
+                                    <select name="list" id="list" style="width: 650px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <option value="issue1">please select</option>
+                                    <option value="issue1">my computer is not working properly</option>
+                                    <option value="issue2">I don't know how to do something on my computer</option>
+                                    <option value="issue3">there is an issue with the printer </option>
+                                    </select>
+                                    <br><br><br>
+
+                                    <label style="color: black; font-size: 17px;"><b> Additional details</b></label><br>
+                                    <textarea rows = "7" cols="50">Enter the details here...</textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2"> <br>
+                                    <button style="width: 500px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: rgb(238, 64, 64); background-color: black; cursor: pointer; opacity:1;">submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" style="margin: 0;padding: 0;background-color: pink">
+            <tr>
+                <td>
+                    <h2 style="text-align: center;color: black;padding: 20px;">Schedule a Zoom Meeting Form</h2><br>
+                    <div class="signup" background="https://images.firstpost.com/wp-content/uploads/2020/03/zoom-logo-12801.jpg" style="width: 382px; margin: auto; padding: 80px; background:rgb(241, 122, 182); border-radius: 15px; background-repeat: no-repeat;background-size: 100% 100%;">
+                    <form>
+                        <h2 style ="text-align: center" >Schedule a Zoom Meeting Form</h2>
+                        <hr size="1" width="100%" color="black">
+                        <label style="color: black; font-size: 17px;"><b>Meeting Title</b></label>
+                        <input type="text" name="Fname" id="Fname" placeholder="Meeting Title" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                        <br><br><br>
+                        <label><b>Meeting Room</b></label><br>
+                        <select name="Meeting Room" style = "width : 300px; height : 30px ;  border-radius:3px; padding-left:8px;border:none;">
+                            <option value="default">Default</option>
+                            <option value="Meeting Room 1">Meeting Room 1</option>
+                            <option value="Meeting Room 2">Meeting Room 2</option>
+                            <option value="Meeting Room 3">Meeting Room 3</option>
+                            <option value="Meeting Room 4">Meeting Room 4</option>
+                        </select>
+                        <br><br><br>
+                        <label style="color: black; font-size: 17px;"><b>Meeting Room - Meeting Time</b></label><br>
+                        <input type="datetime-local" name="Date" id="Date" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                        <br><br><br>
+                        <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                        <input type="text" name="mail" id="mail" placeholder="Email" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                        <br><br><br>
+                        <h4>Comments</h4>
+                        <textarea rows = "7" cols="50">Enter the description here</textarea>
+                        <br><br>
+                        <button style="width: 100px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: black; background-color: rgb(253, 148, 248); cursor: pointer; opacity:1;">Submit</button>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        
+        <table width="100%" style="background-color: rgb(236, 181, 190)">
+            <tr>
+                <td>
+                    <h2 style="text-align: center;color: black;padding: 20px;">Volunteer Candidate Registration Form</h2><br>
+                    <div class="signup" style="width: 500px; margin: auto; padding: 80px; margin: auto; padding: 30px; background:rgb(241, 122, 182); border-radius: 15px;">
+                    <form>
+                        <h2 style ="text-align: center">Volunteer Candidate Registration Form</h2>
+                        <hr size="1" width="100%" color="black">
+                        <table width="100%" align="center" colspan="2" style= "border-spacing: 25px 0px;">
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name : </b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Last Name : </b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Email : </b></label><br>
+                                        <input type="text" name="mail" id="mail" placeholder="ex: myname@example.com" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                                <td>
+                                        <label style="color: black; font-size: 17px;"><b>Phone number : </b></label><br>
+                                        <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px; "><b>Date Of Birth : </b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 200px; height: 30px; border:none; border-radius:3px; right: 675px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Address : </b></label><br>
+                                    <input type="text" name="address1"  placeholder="address 1" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;right: 675px;">
+                                    <br><br><br>
+                                    <input type="text" name="address2"  placeholder="address 2" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px; right: 675px;">
+                                    <br><br><br>
+                                    <input type="text" name="address3"  placeholder="address 3" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;right: 675px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <h4 style="text-align:left;">Please indicate areas to volunteer according to your skills</h4>
+                                    
+                                    <input type="checkbox" name="question2" value="a">Hospitals<br>
+                                    <input type="checkbox" name="question2" value="b">Schools<br>
+                                    <input type="checkbox" name="question2" value="c">Coomunity service<br>
+                                    <input type="checkbox" name="question2" value="d">Computer classes<br>
+                                    <br>
+                                    
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button style="width: 100px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: black; background-color: rgb(224, 10, 214); cursor: pointer; opacity:1;">Submit</button>
+                                </td>    
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>       
+        <table width="100%" style="background-color: rgb(253, 255, 109)">
+            <tr>
+                <td>
+                    <a href="#signup" target="_blank"></a>
+                    <h2 style="text-align: center;color: black;padding: 20px;">Club Membership Registration Form</h2><br>
+                    <div class="signup" style="width: 500px; height:900px; margin: auto; padding: 30px; background:rgb(255, 99, 71); border-radius: 15px;">
+                    <form id="signup"><a id="signup">
+                        <h2 style ="text-align: center">Club Membership Registration Form</h2>
+                        <h4 style="text-align: center;">Complete the form below to sign up for our membership service.</h4>
+                        <hr size="1" width="100%" color="black">
+                        <table width="100%" align="center" colspan="2" style= "border-spacing: 25px 0px;">
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name : </b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Last Name : </b></label><br>
+                                        <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Email : </b></label>
+                                        <input type="text" name="mail" id="mail" placeholder="ex: myname@example.com" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                                <td>
+                                        <label style="color: black; font-size: 17px;"><b>Phone number : </b></label><br>
+                                        <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Address : </b></label><br>
+                                    <input type="text" name="address1"  placeholder="address 1" required style="width: 440px; height: 30px; border:none; border-radius:3px; padding-left:8px; ">
+                                    <br><br><br>
+                                    <input type="text" name="address2"  placeholder="address 2" required style="width: 440px; height: 30px; border:none; border-radius:3px; padding-left:8px; ">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                    <input type="text" name="city" placeholder="city" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td>
+                                    <input type="text" name="pin-code" placeholder="pin-code" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Date Of Birth : </b></label>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 200px; height: 30px; border:none; border-radius:3px;right: 650px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Membership Type : </b></label><br>
+                                    <input type="radio" name="Premium" value="yes">Premium<br>
+                                    <input type="radio" name="Standard" value="no">Standard<br>
+                                    <input type="radio" name="Normal" value="no">Normal<br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Privacy & Policy : </b></label><br>                                   
+                                    <h4 style="font-family: 'Arial';">Please reach out and read our Privacy Policy in order to understand how your information is used and shared, and check below if you accept the policy.</h4>
+                                    
+                                    <input type="checkbox" name="question2" value="a">I have read , understood and accept the privacy policy for membership<br>
+                                    <br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button style="width: 100px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: black; background-color: rgb(255, 135, 66); cursor: pointer; opacity:1;">Submit</button>
+                                </td>    
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" colspan="2" style="margin: 0;padding: 0;background-color:rgb(127, 197, 148);font-family: 'Arial';">
+            <tr>
+                <td>
+                    <table background="https://img.freepik.com/free-photo/yellow-telephone-receiver-turquoise-background_181624-60649.jpg?w=360" width="100%" align="center" colspan="2" style="width: 600px;margin: auto;margin: 20 0 0 450px;padding: 20px;border-radius: 15px; border-spacing: 20px 0px; background-repeat: no-repeat;background-size: cover; background-position: bottom;">
+                        <form>
+                            <tr>
+                                <td width="100%" colspan="2">
+                                    <h2 style="text-align: center;color: black;">call back Form</h2><br>
+                                </td>
+                            </tr><br><br><br>
+                            <tr>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>First Name</b></label><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="50%">
+                                    <label style="color: black; font-size: 17px;"><b>Last Name</b></label><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px;"><b>Email</b></label><br>
+                                    <input type="text" name="mail" id="mail" placeholder="ex: xxx@gmail.com" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td width="100%" colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>phone number</b></label><br>
+                                    <input type="tel" name="Num" id="Num" placeholder="123-456-7890" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Preferred Date</b></label><br>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 200px; height: 30px; border:none; border-radius:3px;right: 650px;">
+                                    <br><br><br>
+                                </td>
+                                <td>
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Preferred time</b></label><br>
+                                    <input type="time" name="time" id="time" placeholder="25-07-02" required style="width: 200px; height: 30px; border:none; border-radius:3px;right: 650px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="100%" align="center" colspan="2">
+                                    <button style="width: 300px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: black; background-color: rgb(207, 102, 228); cursor: pointer; opacity:1;">Submit</button>
+                                </td>
+                            </tr>
+                        </form>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        
+        <table width="100%" style="background-color: rgb(250, 86, 86)">
+            <tr>
+                <td>
+                    <a href="#signup" target="_blank"></a>
+                    <h2 style="text-align: center;color: black;padding: 20px;">Video Submit Form</h2><br>
+                    <div class="signup" style="width: 500px; height:900px; margin: auto; padding: 30px;  background:rgb(163, 185, 185); border-radius: 15px;">
+                    <form id="signup"><a id="signup">
+                        <h2 style ="text-align: center"><b>Submit a Video</b></h2>
+                        <h4 style="text-align: center;">Submit your video for evaluation</h4>
+                        <hr size="2" width="100%" color="black">
+                        <table width="100%" align="center" colspan="2" style="border-spacing: 25px 0px;">
+                            <tr >
+                                <td width="50%">
+                                    <label style="color: black; font-size: 20px;"><b>First Name : </b></label><br><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td >
+                                    <label style="color: black; font-size: 20px;"><b>Last Name : </b></label><br><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="50%">
+                                        <label style="color: black; font-size: 17px;"><b>Email : </b></label><br><br>
+                                        <input type="text" name="mail" id="mail" placeholder="ex: myname@example.com" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                        <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Upload Video : </b></label><br><br>
+                                    <input type="file" name="file" id="file" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <p>1. Make sure your video is no longer than 10 minutes.<br>2. Make sure you I own the right to use all music & images on the video.<br>3. Make sure your video does not containt unappropriate language, images, or sounds.<br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px; text-align:center;"><b>Do You Agree to the Terms Above ?</b></label><br><br>
+                                    <input type="checkbox" name="question2" value="yes">Yes , I do<br>
+                                    <input type="checkbox" name="question2" value="no">No , I don't<br><br>
+                                </td>
+                            <tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 20px; text-align:center;"><b>Comments : </b></label><br><br>
+                                    <textarea rows = "7" cols="55">Comment here</textarea>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button style="width: 100px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: white; background-color: rgb(107, 91, 104); cursor: pointer; opacity:1;">Submit</button>
+                                </td>    
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <table width="100%" style="background-color: rgb(212, 211, 212)">
+            <tr>
+                <td>
+                    <h2 style="text-align: center;color: black;padding: 20px;">Employee End of Day Report</h2><br>
+                    <div style="width: 500px; height:1030px; margin: auto; padding: 30px;  background:rgb(92, 99, 99); border-radius: 15px;">
+                    <form> 
+                        <h2 style ="text-align: center"><b>Employee End of Day Report</b></h2>
+                        <img src="https://www.jotform.com/uploads/waltermiller/form_files/report.5e7dd9eecc8c02.14202298.jpg"  width="500" height = "200"  >
+                        <hr size="1" width="100%" color="black">
+                        <table width="100%" align="center" colspan="2" style="border-spacing: 25px 0px;">
+                            <tr >
+                                <td width="50%">
+                                    <label style="color: black; font-size: 20px;"><b>First Name : </b></label><br><br>
+                                    <input type="text" name="Fname" id="Fname" placeholder="First name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td >
+                                    <label style="color: black; font-size: 20px;"><b>Last Name : </b></label><br><br>
+                                    <input type="text" name="Lname" id="Lname" placeholder="Last name" style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;" >
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 20px;"><b>Title : </b></label><br><br>
+                                    <input type="text" name="pin-code" required style="width: 200px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br><br>
+                                </td>
+                                <td>
+                                    <label><b>Department : </b></label><br><br>
+                                    <select name="Meeting Room" style = "width : 200px; height : 30px ;  border-radius:3px; padding-left:8px;border:none;">
+                                    <option value="none">None</option>
+                                    <option value="friend">Market</option>
+                                    <option value="brother">Sales</option>
+                                    <option value="husband">Service</option>
+                                    </select>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <hr size="2" width="100%" color="white">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 20px; text-align:center;"><b>Date of report : </b></label>
+                                    <input type="date" name="Date" id="Date" placeholder="25-07-02" required style="width: 200px; height: 30px; border:none; border-radius:3px; position: absolute; right: 540px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 20px; text-align:center;"><b>From : </b></label>
+                                    <input type="time"  name="time" required style="width: 200px; height: 30px; border:none; border-radius:3px; position: absolute; right: 540px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label style="color: black; font-size: 20px; text-align:center;"><b>To : </b></label>
+                                    <input type="time" name="time" required style="width: 200px; height: 30px; border:none; border-radius:3px; position: absolute; right: 540px;">
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 17px;"><b>Upload File : </b></label><br><br>
+                                    <input type="file" name="file" id="file" required style="width: 300px; height: 30px; border:none; border-radius:3px; padding-left:8px;">
+                                    <br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label style="color: black; font-size: 20px; text-align:center;"><b>Comments : </b></label><br><br>
+                                    <textarea rows = "7" cols="55">Comment here</textarea>
+                                    <br><br><br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button style="width: 100px; height: 30px; border: none; border-radius: 17px; padding-left: 7px; color: white; background-color: rgb(59, 56, 59); cursor: pointer; opacity:1;">Submit</button>
+                                </td>    
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
